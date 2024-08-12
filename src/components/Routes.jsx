@@ -5,6 +5,7 @@ import { Results } from './Results';
 
 export const Routes = () => (
   <div className="p-4">
+    {/* the switch tag is used to render the first child Route or Redirect that matches the current location */}
     <Switch>
       <Route exact path="/">
         <Redirect to="/search" />
